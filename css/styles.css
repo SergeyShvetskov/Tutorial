@@ -1,0 +1,70 @@
+* {
+    list-style: none;
+}
+
+.logo span{
+    color: blue;
+}
+.logo {
+    text-decoration: none;
+    font-size: 26px;
+    color: black;
+    margin: 24px;
+    padding-left: 214px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.page-header {
+    background-color: red;
+    width: 1600px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.site-nav {
+    display: flex;
+    flex-direction: row;    
+}
+.site-nav li {
+    list-style: none;
+}
+.auth-nav {
+    display: flex;
+    flex-direction: row;
+}
+.auth-nav li {
+    list-style: none;
+}
+.statti li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.photo li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+
+/* Застосується до всіх тегів з класом title */
+.title {
+    font-weight: 500;
+}
+
+/* Застосується до всіх тегів з класом text */
+.text {
+    color: brown;
+    font-size: 18px;
+}
+
+/* Застосується до всіх тегів з класом link */
+.link {
+    text-decoration: none;    
+}
+
+.footer {
+    background-color: red;
+}
